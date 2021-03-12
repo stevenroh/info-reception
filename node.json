@@ -34,6 +34,7 @@
         "type": "select",
         "options": [
             ["en", "English"],
+            ["Fr", "French"],
             ["es", "Spanish"],
             ["de", "German"]
         ],
