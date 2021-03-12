@@ -42,6 +42,7 @@ def send_clock(now, ts):
         day_of_week = {
             'en': ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
             'es': ['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'],
+            'fr': ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'],
             'de': ['Mo', 'Di',  'Mi', 'Do', 'Fr', 'Sa', 'So'],
         }[config.language][now.weekday()]
         time_fmt = day_of_week + time_fmt[2:]
