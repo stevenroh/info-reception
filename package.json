@@ -1,9 +1,9 @@
 {
     "name": "Reception Screen",
-    "author": "Florian Wesch <fw@info-beamer.com>",
+    "author": "Steven Roh based on Florian Wesch work",
     "desc": "Shows textual/image and video information for a reception-style information screen.",
-    "repository": "https://github.com/info-beamer/package-reception",
-    "version": "0.4",
+    "repository": "https://github.com/stevenroh/info-reception",
+    "version": "0.4.1",
     "platforms": ["pi/epoch-1", "pi-4"],
     "nesting": {
         "parents": ["top-level"],
