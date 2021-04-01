@@ -772,7 +772,7 @@ local function playlist()
     end
 
     local function tile_bottom_clock(s, e, now)
-        return 0, HEIGHT-50, 300, HEIGHT
+        return WIDTH/2 - 150, 5, 300, HEIGHT
     end
 
     local function tile_right(s, e, now)
